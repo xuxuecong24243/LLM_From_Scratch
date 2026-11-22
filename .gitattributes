@@ -1,0 +1,11 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.ipynb text eol=lf
+requirements*.txt text eol=lf
+# Preserve public datasets and upstream notices byte-for-byte.
+data/the-verdict.txt -text -whitespace
+data/instruction-data.json -text -whitespace
+data/sms_spam_collection/SMSSpamCollection.tsv -text -whitespace
+data/sms_spam_collection/readme -text -whitespace
+licenses/*.txt -text -whitespace

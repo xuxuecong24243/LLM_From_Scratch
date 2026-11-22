@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments / local configuration
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+
+# Jupyter / operating system
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Model weights, including TensorFlow checkpoint shards
+*.pth
+*.pt
+*.bin
+*.ckpt
+*.ckpt.*
+*.safetensors
+*.npy
+*.npz
+
+# Keep only the small GPT-2 architecture configs in version control.
+# Tokenizer assets and checkpoint metadata are fetched by the download helper.
+gpt2/*/*
+!gpt2/*/hparams.json
+
+# Download cache, generated splits, training and evaluation output
+data/downloads/
+data/sms_spam_collection/train.csv
+data/sms_spam_collection/validation.csv
+data/sms_spam_collection/test.csv
+outputs/
+*.log
+loss-plot.pdf
+*-plot.pdf
+instruction-data-with-response.json
+
+# Local organization work files
+.organization_work/

@@ -1,0 +1,9 @@
+# Core chapter examples (Python 3.10+)
+torch
+tiktoken
+numpy
+pandas
+matplotlib
+tqdm
+requests
+psutil

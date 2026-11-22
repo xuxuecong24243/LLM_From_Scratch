@@ -1,0 +1,9 @@
+# Only needed to read original GPT-2 TensorFlow checkpoints
+tensorflow
+
+# Interactive learning records
+jupyterlab
+nbformat
+
+# Archived figure-generation script (also requires the fonts documented there)
+fonttools
